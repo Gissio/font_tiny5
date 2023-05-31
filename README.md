@@ -4,7 +4,7 @@ font_tiny5 is a variable-width 5-pixel font that draws inspiration from the reno
 
 ## Tools
 
-font_tiny5 was designed with [Fony](http://hukka.ncn.fi/?fony), converted to SFD format with [vfontas](https://manpages.ubuntu.com/manpages/kinetic/man1/vfontas.1.html) (hxtools), and post-edited with [Font Forge](https://fontforge.org/).
+font_tiny5 was designed with [Fony](http://hukka.ncn.fi/?fony), converted to SFD format with [vfontas](https://manpages.ubuntu.com/manpages/kinetic/man1/vfontas.1.html) (hxtools), and post-edited with [FontForge](https://fontforge.org/).
 
 ## Overview
 
