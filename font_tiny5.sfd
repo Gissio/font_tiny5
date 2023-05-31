@@ -18,8 +18,8 @@ FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1685486929
-ModificationTime: 1685487103
+CreationTime: 1685501249
+ModificationTime: 1685501344
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -48,7 +48,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 50 50 22
+WinInfo: 39 39 22
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -2673,21 +2673,21 @@ LayerCount: 2
 Fore
 SplineSet
 0 0 m 25
- 0 128 l 25
- 128 128 l 25
+ 0 256 l 25
  128 256 l 25
- 256 256 l 25
- 256 128 l 25
+ 128 128 l 25
  384 128 l 25
  384 0 l 25
  0 0 l 25
-256 256 m 25
- 256 384 l 25
+128 256 m 25
+ 128 384 l 25
  0 384 l 25
  0 512 l 25
  384 512 l 25
- 384 256 l 25
+ 384 384 l 25
+ 256 384 l 25
  256 256 l 25
+ 128 256 l 25
 EndSplineSet
 EndChar
 
