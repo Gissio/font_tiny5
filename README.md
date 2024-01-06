@@ -26,6 +26,12 @@ The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_D
 
 * First release.
 
+## Build
+
+With Python 3.10 or newer, install the `requirements.txt` and run this command:
+
+    gftools builder sources/config.yaml
+
 ## Acknowledgements 
 
 font_tiny5 was designed by Stefan Schmidt using [Bits'N'Picas](https://github.com/kreativekorp/bitsnpicas) and [FontForge](https://fontforge.org/).
