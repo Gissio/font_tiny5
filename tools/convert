@@ -1,2 +1,0 @@
-#!/bin/bash
-vfontas -loadbdf font_tiny5.bdf -setname "font_tiny5" -savesfd font_tiny5.sfd
