@@ -8,13 +8,13 @@ Each of font_tiny5's glyphs was carefully crafted to be visually appealing and e
 
 The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format) format for easy integration with the [mcu-renderer](https://github.com/Gissio/mcu-renderer) and [u8g2](https://github.com/olikraus/u8g2) libraries.
 
-## Overview
-
-![font_tiny5 overview](documentation/overview.png)
-
 ## Sample
 
 ![font_tiny5 sample](documentation/sample.png)
+
+## Overview
+
+![font_tiny5 overview](documentation/overview.png)
 
 ## Changelog
 
