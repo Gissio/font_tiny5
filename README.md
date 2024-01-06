@@ -16,8 +16,6 @@ The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_D
 
 ![font_tiny5 sample](documentation/sample.png)
 
-## Build
-
 ## Changelog
 
 ### 1.0.1
