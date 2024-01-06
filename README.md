@@ -20,7 +20,7 @@ The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_D
 
 ### 1.0.1
 
-* Fixed alignment of the the Ì, Ï, ì, ï glyphs.
+* Fixed alignment of the Ì, Ï, ì, ï glyphs.
 
 ### 1.0.0
 
