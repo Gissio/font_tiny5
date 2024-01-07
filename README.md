@@ -1,26 +1,26 @@
-# font_tiny5
+# tiny5
 
-font_tiny5 is a variable-width, 5-pixel font playing with the concept of least amount of information that produces both legible and aesthetically pleasing text.
+tiny5 is a variable-width, 5-pixel font playing with the concept of least amount of information that produces both legible and aesthetically pleasing text.
 
 It is aimed at digital media such as websites, mobile apps and, especially, monochrome LCD displays.
 
-Each of font_tiny5's glyphs was carefully crafted to be visually appealing and easy to read at any size. font_tiny5 supports Unicode planes 0 and 1.
+Each of tiny5's glyphs was carefully crafted to be visually appealing and easy to read at any size. tiny5 fully supports the Google Fonts Latin Plus character set as well as Unicode blocks 0 to 2.
 
-The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format) format for easy integration with the [mcu-renderer](https://github.com/Gissio/mcu-renderer) and [u8g2](https://github.com/olikraus/u8g2) libraries.
+The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format) format for easy integration with the [mcu-renderer](https://github.com/Gissio/mcu-renderer), [u8g2](https://github.com/olikraus/u8g2) and [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) libraries.
 
 ## Sample
 
-![font_tiny5 sample](documentation/sample.png)
+![tiny5 sample](documentation/sample.png)
 
 ## Overview
 
-![font_tiny5 overview](documentation/overview.png)
+![tiny5 overview](documentation/overview.png)
 
 ## Changelog
 
 ### 1.0.1
 
-* Fixed alignment of the Ì, Ï, ì, ï glyphs.
+* Fixed alignment of the Ì, Î, Ï, ì, î, ï glyphs.
 
 ### 1.0.0
 
@@ -34,7 +34,7 @@ With Python 3.10 or newer, install the `requirements.txt` and run this command:
 
 ## Acknowledgements 
 
-font_tiny5 was designed by Stefan Schmidt using [Bits'N'Picas](https://github.com/kreativekorp/bitsnpicas) and [FontForge](https://fontforge.org/).
+tiny5 was designed by Stefan Schmidt using [Bits'N'Picas](https://github.com/kreativekorp/bitsnpicas) and [FontForge](https://fontforge.org/).
 
 ## License
 
