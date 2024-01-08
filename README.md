@@ -4,7 +4,7 @@ tiny5 is a variable-width, 5-pixel font playing with the concept of least amount
 
 It is aimed at digital media such as websites, mobile apps and, especially, monochrome LCD displays.
 
-Each of tiny5's glyphs was carefully crafted to be visually appealing and easy to read at any size. tiny5 fully supports the Google Fonts Latin Plus character set as well as Unicode blocks 0 to 2.
+Each of tiny5's glyphs was carefully crafted to be visually appealing and easy to read. tiny5 fully supports the Google Fonts Latin Plus character set as well as Unicode blocks 0 to 2.
 
 The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format) format for easy integration with the [mcu-renderer](https://github.com/Gissio/mcu-renderer), [u8g2](https://github.com/olikraus/u8g2) and [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) libraries.
 
