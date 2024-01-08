@@ -29,7 +29,7 @@
     <key>italicAngle</key>
     <real>0</real>
     <key>openTypeHeadCreated</key>
-    <string>2024/01/07 18:39:10</string>
+    <string>2024/01/07 19:42:46</string>
     <key>openTypeHheaAscender</key>
     <integer>896</integer>
     <key>openTypeHheaDescender</key>
@@ -143,7 +143,7 @@
     <key>postscriptUnderlineThickness</key>
     <integer>128</integer>
     <key>postscriptUnderlinePosition</key>
-    <integer>-128</integer>
+    <integer>-192</integer>
     <key>guidelines</key>
     <array/>
   </dict>
