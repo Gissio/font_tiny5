@@ -13,9 +13,9 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>copyright</key>
-    <string>Stefan Schmidt 2022-2024</string>
+    <string>Copyright 2024 The tiny5 Project Authors (https://github.com/Gissio/font_tiny5)</string>
     <key>unitsPerEm</key>
     <integer>1024</integer>
     <key>capHeight</key>
@@ -29,7 +29,7 @@
     <key>italicAngle</key>
     <real>0</real>
     <key>openTypeHeadCreated</key>
-    <string>2024/01/07 19:42:46</string>
+    <string>2024/01/07 22:46:58</string>
     <key>openTypeHheaAscender</key>
     <integer>896</integer>
     <key>openTypeHheaDescender</key>
@@ -45,11 +45,11 @@
     <key>openTypeNameManufacturerURL</key>
     <string>http://www.kreativekorp.com/software/bitsnpicas/</string>
     <key>openTypeNameLicense</key>
-    <string>SIL Open Font License version 1.1</string>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
-    <string>https://openfontlicense.org/open-font-license-official-text/</string>
+    <string>https://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>1.0.1</string>
+    <string>1.001</string>
     <key>openTypeNameUniqueID</key>
     <string>BitsNPicas: tiny5: 2024</string>
     <key>openTypeNamePreferredFamilyName</key>
@@ -58,6 +58,10 @@
     <string>Medium</string>
     <key>openTypeNameCompatibleFullName</key>
     <string>tiny5 Medium</string>
+    <key>openTypeWWSFamilyName</key>
+    <string>tiny5</string>
+    <key>openTypeWWSSubfamilyName</key>
+    <string>Medium</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>2</integer>
@@ -143,7 +147,7 @@
     <key>postscriptUnderlineThickness</key>
     <integer>128</integer>
     <key>postscriptUnderlinePosition</key>
-    <integer>-192</integer>
+    <integer>-128</integer>
     <key>guidelines</key>
     <array/>
   </dict>

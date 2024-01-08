@@ -8,21 +8,22 @@ Each of tiny5's glyphs was carefully crafted to be visually appealing and easy t
 
 The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format) format for easy integration with the [mcu-renderer](https://github.com/Gissio/mcu-renderer), [u8g2](https://github.com/olikraus/u8g2) and [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) libraries.
 
-## Sample
-
-![tiny5 sample](documentation/sample.png)
-
 ## Overview
 
 ![tiny5 overview](documentation/overview.png)
 
+## Sample
+
+![tiny5 sample](documentation/sample.png)
+
 ## Changelog
 
-### 1.0.1
+### 1.001
 
-* Fixed alignment of the Ì, Î, Ï, ì, î, ï glyphs.
+* Added Google Fonts Latin Plus characters.
+* Major corrections to accented glyphs.
 
-### 1.0.0
+### 1.000
 
 * First release.
 
