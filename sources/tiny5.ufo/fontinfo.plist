@@ -29,7 +29,7 @@
     <key>italicAngle</key>
     <real>0</real>
     <key>openTypeHeadCreated</key>
-    <string>2024/01/09 06:49:14</string>
+    <string>2024/01/09 07:26:08</string>
     <key>openTypeHheaAscender</key>
     <integer>896</integer>
     <key>openTypeHheaDescender</key>
@@ -124,6 +124,7 @@
       <integer>1</integer>
       <integer>2</integer>
       <integer>3</integer>
+      <integer>4</integer>
       <integer>5</integer>
       <integer>6</integer>
       <integer>7</integer>
