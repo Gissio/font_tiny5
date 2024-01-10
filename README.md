@@ -20,7 +20,7 @@ The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_D
 
 ### 1.001
 
-* Added Google Fonts Latin Plus characters.
+* Added Google Fonts Latin Plus and Latin African character sets.
 * Major corrections to accented glyphs.
 
 ### 1.000
