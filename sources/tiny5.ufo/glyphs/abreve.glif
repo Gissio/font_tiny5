@@ -2,6 +2,8 @@
 <glyph name="abreve" format="2">
   <advance width="512"/>
   <unicode hex="0103"/>
+  <anchor x="128" y="896" name="top"/>
+  <anchor x="128" y="0" name="bottom"/>
   <outline>
     <component base="breve" yOffset="256"/>
     <component base="a"/>

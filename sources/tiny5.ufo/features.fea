@@ -27,7 +27,7 @@ lookup markPosicionamientodemarcabsqueda0 {
   pos base [\A \C \O \S \U ] <anchor 384 0> mark @foot
 	<anchor 256 640> mark @top
 	<anchor 256 0> mark @bottom;
-  pos base [\B \F \G \K \M \N \P \Q \R \W ] <anchor 256 0> mark @bottom
+  pos base [\B \F \G \K \M \N \P \Q \R \W \AE \Eth \Oslash \germandbls \dcaron \Dcroat \IJ \Lslash \napostrophe \OE \tcaron \uni0186 \uni018F \uni0190 ] <anchor 256 0> mark @bottom
 	<anchor 256 640> mark @top;
   pos base [\D \E \H ] <anchor 256 0> mark @foot
 	<anchor 256 0> mark @bottom
@@ -35,7 +35,7 @@ lookup markPosicionamientodemarcabsqueda0 {
   pos base [\I \l ] <anchor 0 0> mark @foot
 	<anchor 0 640> mark @top
 	<anchor 0 0> mark @bottom;
-  pos base [\J \V \X \Y \Z \b \k ] <anchor 128 640> mark @top
+  pos base [\J \V \X \Y \Z \b \k \eth \Lcaron \lcaron \Ldot \ldot \lslash \Tbar ] <anchor 128 640> mark @top
 	<anchor 128 0> mark @bottom;
   pos base [\L ] <anchor 0 0> mark @foot
 	<anchor 128 640> mark @top
@@ -51,16 +51,16 @@ lookup markPosicionamientodemarcabsqueda0 {
 	<anchor 128 0> mark @bottom;
   pos base [\f ] <anchor 128 640> mark @top
 	<anchor 0 0> mark @bottom;
-  pos base [\g \p \q \y ] <anchor 128 512> mark @top
+  pos base [\g \p \q \y \ccedilla \aogonek \eogonek \eng \scedilla \uogonek ] <anchor 128 512> mark @top
 	<anchor 128 -128> mark @bottom;
   pos base [\i \dotlessi ] <anchor 0 0> mark @foot
 	<anchor 0 512> mark @top
 	<anchor 0 0> mark @bottom;
-  pos base [\m \w ] <anchor 256 0> mark @bottom
+  pos base [\m \w \ae \oe ] <anchor 256 0> mark @bottom
 	<anchor 256 512> mark @top;
-  pos base [\n \v \x \z ] <anchor 128 0> mark @bottom
+  pos base [\n \v \x \z \oslash \kgreenlandic \uni0254 \uni0259 \uni025B ] <anchor 128 0> mark @bottom
 	<anchor 128 512> mark @top;
-  pos base [\o ] <anchor 128 0> mark @foot
+  pos base [\o ] <anchor 384 0> mark @foot
 	<anchor 128 0> mark @bottom
 	<anchor 128 512> mark @top;
   pos base [\r ] <anchor 0 0> mark @bottom
@@ -68,16 +68,57 @@ lookup markPosicionamientodemarcabsqueda0 {
   pos base [\t ] <anchor 128 0> mark @foot
 	<anchor 0 0> mark @bottom
 	<anchor 0 640> mark @top;
-  pos base [\Adieresis \Otilde \Odieresis \Udieresis \Emacron \Omacron \Utilde \Umacron \uni0226 \uni022E ] <anchor 256 896> mark @top;
-  pos base [\AE \Ccedilla \Oslash \uni01EA \uni0228 \uni1E5A \uni1E62 \uni1EA0 \uni1EB8 \uni1ECC ] <anchor 256 640> mark @top;
-  pos base [\Idieresis ] <anchor 0 896> mark @top;
-  pos base [\adieresis \otilde \odieresis \udieresis \ydieresis \emacron \omacron \utilde \umacron \uni0227 \uni022F ] <anchor 128 768> mark @top;
-  pos base [\ae ] <anchor 256 512> mark @top;
-  pos base [\ccedilla \oslash \uni01EB \uni0229 \uni0292 \uni1E5B \uni1E63 \uni1EA1 \uni1EB9 \uni1ECD ] <anchor 128 512> mark @top;
-  pos base [\idieresis ] <anchor 0 768> mark @top;
-  pos base [\ugrave \uacute \ucircumflex \yacute \sacute \scaron ] <anchor 128 896> mark @top;
-  pos base [\Sacute \Scaron ] <anchor 256 1024> mark @top;
+  pos base [\Agrave \Aacute \Acircumflex \Aring \Egrave \Eacute \Ecircumflex \Ograve \Oacute \Ocircumflex \Ugrave \Uacute \Ucircumflex \Abreve \Cacute \Ccircumflex \Ccaron \Dcaron \Ebreve \Ecaron \Gcircumflex \Gbreve \Hcircumflex \Nacute \Ncaron \Obreve \Ohungarumlaut \Racute \Rcaron \Sacute \Scircumflex \Scaron \Ubreve \Uring \Uhungarumlaut \Wcircumflex ] <anchor 256 1024> mark @top
+	<anchor 256 0> mark @bottom;
+  pos base [\Atilde \Adieresis \Edieresis \Ntilde \Otilde \Odieresis \Udieresis \Amacron \Cdotaccent \Emacron \Edotaccent \Gdotaccent \Omacron \Utilde \Umacron \wcircumflex ] <anchor 256 896> mark @top
+	<anchor 256 0> mark @bottom;
+  pos base [\Ccedilla \Aogonek \Eogonek \Eng \Scedilla ] <anchor 256 -128> mark @bottom
+	<anchor 256 640> mark @top;
+  pos base [\Igrave \Iacute \Icircumflex \Ibreve \lacute ] <anchor 0 1024> mark @top
+	<anchor 0 0> mark @bottom;
+  pos base [\Idieresis \igrave \iacute \icircumflex \Itilde \Imacron \ibreve \Idotaccent \racute \rcaron ] <anchor 0 0> mark @bottom
+	<anchor 0 896> mark @top;
+  pos base [\Yacute \hcircumflex \Jcircumflex \Lacute \Tcaron \Ycircumflex \Zacute \Zcaron ] <anchor 128 1024> mark @top
+	<anchor 128 0> mark @bottom;
+  pos base [\agrave \aacute \acircumflex \aring \egrave \eacute \ecircumflex \ograve \oacute \ocircumflex \ugrave \uacute \ucircumflex \abreve \cacute \ccircumflex \ccaron \ebreve \ecaron \nacute \ncaron \obreve \ohungarumlaut \sacute \scircumflex \scaron \ubreve \uring \uhungarumlaut \Ydieresis \zacute \Zdotaccent \zcaron ] <anchor 128 896> mark @top
+	<anchor 128 0> mark @bottom;
+  pos base [\atilde \adieresis \edieresis \ntilde \otilde \odieresis \udieresis \amacron \cdotaccent \emacron \edotaccent \omacron \utilde \umacron \zdotaccent ] <anchor 128 0> mark @bottom
+	<anchor 128 768> mark @top;
+  pos base [\idieresis \itilde \imacron \iogonek \tbar ] <anchor 0 0> mark @bottom
+	<anchor 0 768> mark @top;
+  pos base [\yacute \gcircumflex \gbreve \gcommaaccent \ycircumflex ] <anchor 128 -128> mark @bottom
+	<anchor 128 896> mark @top;
+  pos base [\thorn \Tcommaaccent ] <anchor 128 640> mark @top
+	<anchor 128 -128> mark @bottom;
+  pos base [\ydieresis \gdotaccent \ij ] <anchor 128 -128> mark @bottom
+	<anchor 128 768> mark @top;
+  pos base [\dcroat \hbar ] <anchor 256 768> mark @top
+	<anchor 256 0> mark @bottom;
+  pos base [\Gcommaaccent \Kcommaaccent \Ncommaaccent \Rcommaaccent ] <anchor 256 -256> mark @bottom
+	<anchor 256 640> mark @top;
+  pos base [\Hbar ] <anchor 384 0> mark @bottom
+	<anchor 384 768> mark @top;
+  pos base [\Iogonek \longs ] <anchor 0 640> mark @top
+	<anchor 0 0> mark @bottom;
+  pos base [\jcircumflex ] <anchor 0 -128> mark @bottom
+	<anchor 0 896> mark @top;
+  pos base [\kcommaaccent \Lcommaaccent ] <anchor 128 640> mark @top
+	<anchor 128 -256> mark @bottom;
+  pos base [\lcommaaccent ] <anchor 0 640> mark @top
+	<anchor 0 -256> mark @bottom;
+  pos base [\ncommaaccent ] <anchor 128 -256> mark @bottom
+	<anchor 128 512> mark @top;
+  pos base [\rcommaaccent ] <anchor 0 -256> mark @bottom
+	<anchor 0 512> mark @top;
+  pos base [\tcommaaccent ] <anchor 0 -128> mark @bottom
+	<anchor 0 640> mark @top;
+  pos base [\Uogonek ] <anchor 258 -128> mark @bottom
+	<anchor 256 640> mark @top;
   pos base [\uni01B7 \uni01B8 \uni1E36 ] <anchor 128 640> mark @top;
+  pos base [\uni01EA \uni0228 \uni1E5A \uni1E62 \uni1EA0 \uni1EB8 \uni1ECC ] <anchor 256 640> mark @top;
+  pos base [\uni01EB \uni0229 \uni0292 \uni1E5B \uni1E63 \uni1EA1 \uni1EB9 \uni1ECD ] <anchor 128 512> mark @top;
+  pos base [\uni0226 \uni022E \uni1E26 ] <anchor 256 896> mark @top;
+  pos base [\uni0227 \uni022F ] <anchor 128 768> mark @top;
   pos base [\uni0237 ] <anchor 0 -128> mark @foot
 	<anchor 0 -128> mark @bottom
 	<anchor 0 512> mark @top;

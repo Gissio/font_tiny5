@@ -2,6 +2,8 @@
 <glyph name="lcaron" format="2">
   <advance width="512"/>
   <unicode hex="013E"/>
+  <anchor x="128" y="0" name="bottom"/>
+  <anchor x="128" y="640" name="top"/>
   <outline>
     <component base="uni02BC" xOffset="256"/>
     <component base="l"/>

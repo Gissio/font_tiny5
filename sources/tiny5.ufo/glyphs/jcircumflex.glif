@@ -2,6 +2,8 @@
 <glyph name="jcircumflex" format="2">
   <advance width="256"/>
   <unicode hex="0135"/>
+  <anchor x="0" y="-128" name="bottom"/>
+  <anchor x="0" y="896" name="top"/>
   <outline>
     <component base="circumflex" xOffset="-128" yOffset="256"/>
     <component base="uni0237"/>

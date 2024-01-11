@@ -2,9 +2,21 @@
 <glyph name="Udieresis" format="2">
   <advance width="640"/>
   <unicode hex="00DC"/>
+  <anchor x="256" y="0" name="bottom"/>
   <anchor x="256" y="896" name="top"/>
   <outline>
-    <component base="dieresis" xOffset="128" yOffset="256"/>
+    <contour>
+      <point x="0" y="768" type="line"/>
+      <point x="0" y="896" type="line"/>
+      <point x="128" y="896" type="line"/>
+      <point x="128" y="768" type="line"/>
+    </contour>
+    <contour>
+      <point x="384" y="768" type="line"/>
+      <point x="384" y="896" type="line"/>
+      <point x="512" y="896" type="line"/>
+      <point x="512" y="768" type="line"/>
+    </contour>
     <component base="U"/>
   </outline>
 </glyph>

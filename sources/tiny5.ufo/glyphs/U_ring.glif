@@ -2,6 +2,8 @@
 <glyph name="Uring" format="2">
   <advance width="640"/>
   <unicode hex="016E"/>
+  <anchor x="256" y="1024" name="top"/>
+  <anchor x="256" y="0" name="bottom"/>
   <outline>
     <component base="ring" xOffset="128" yOffset="384"/>
     <component base="U"/>

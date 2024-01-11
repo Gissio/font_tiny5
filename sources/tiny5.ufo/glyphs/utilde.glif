@@ -2,6 +2,7 @@
 <glyph name="utilde" format="2">
   <advance width="512"/>
   <unicode hex="0169"/>
+  <anchor x="128" y="0" name="bottom"/>
   <anchor x="128" y="768" name="top"/>
   <outline>
     <component base="tilde" xOffset="128" yOffset="128"/>

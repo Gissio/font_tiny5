@@ -2,6 +2,8 @@
 <glyph name="tcommaaccent" format="2">
   <advance width="384"/>
   <unicode hex="0163"/>
+  <anchor x="0" y="-128" name="bottom"/>
+  <anchor x="0" y="640" name="top"/>
   <outline>
     <component base="cedilla" yOffset="-128"/>
     <component base="t"/>

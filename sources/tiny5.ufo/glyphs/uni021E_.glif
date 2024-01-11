@@ -3,7 +3,24 @@
   <advance width="640"/>
   <unicode hex="021E"/>
   <outline>
-    <component base="caron" xOffset="128" yOffset="384"/>
+    <contour>
+      <point x="0" y="1024" type="line"/>
+      <point x="0" y="896" type="line"/>
+      <point x="128" y="896" type="line"/>
+      <point x="128" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="384" y="1024" type="line"/>
+      <point x="384" y="896" type="line"/>
+      <point x="512" y="896" type="line"/>
+      <point x="512" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="896" type="line"/>
+      <point x="128" y="768" type="line"/>
+      <point x="384" y="768" type="line"/>
+      <point x="384" y="896" type="line"/>
+    </contour>
     <component base="H"/>
   </outline>
 </glyph>

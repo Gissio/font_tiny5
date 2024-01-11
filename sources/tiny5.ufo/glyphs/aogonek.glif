@@ -2,6 +2,8 @@
 <glyph name="aogonek" format="2">
   <advance width="512"/>
   <unicode hex="0105"/>
+  <anchor x="128" y="-128" name="bottom"/>
+  <anchor x="128" y="512" name="top"/>
   <outline>
     <component base="ogonek" xOffset="128"/>
     <component base="a"/>
