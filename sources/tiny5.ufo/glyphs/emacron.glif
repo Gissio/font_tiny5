@@ -2,30 +2,9 @@
 <glyph name="emacron" format="2">
   <advance width="512"/>
   <unicode hex="0113"/>
+  <anchor x="128" y="768" name="top"/>
   <outline>
-    <contour>
-      <point x="128" y="128" type="line"/>
-      <point x="0" y="128" type="line"/>
-      <point x="0" y="384" type="line"/>
-      <point x="128" y="384" type="line"/>
-      <point x="128" y="512" type="line"/>
-      <point x="256" y="512" type="line"/>
-      <point x="256" y="384" type="line"/>
-      <point x="384" y="384" type="line"/>
-      <point x="384" y="256" type="line"/>
-      <point x="128" y="256" type="line"/>
-    </contour>
-    <contour>
-      <point x="128" y="0" type="line"/>
-      <point x="128" y="128" type="line"/>
-      <point x="384" y="128" type="line"/>
-      <point x="384" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="0" y="640" type="line"/>
-      <point x="0" y="768" type="line"/>
-      <point x="384" y="768" type="line"/>
-      <point x="384" y="640" type="line"/>
-    </contour>
+    <component base="macron" yOffset="128"/>
+    <component base="e"/>
   </outline>
 </glyph>

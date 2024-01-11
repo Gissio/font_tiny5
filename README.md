@@ -21,7 +21,7 @@ The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_D
 ### 1.001
 
 * Added Google Fonts Latin Plus and Latin African character sets.
-* Major corrections to accented glyphs.
+* Major corrections.
 
 ### 1.000
 
@@ -36,6 +36,8 @@ With Python 3.10 or newer, install the `requirements.txt` and run this command:
 ## Acknowledgements 
 
 tiny5 was designed by Stefan Schmidt using [Bits'N'Picas](https://github.com/kreativekorp/bitsnpicas) and [FontForge](https://fontforge.org/).
+
+More information about Stefan Schmidt at https://www.stefanschmidtart.com
 
 ## License
 

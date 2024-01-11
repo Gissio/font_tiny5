@@ -2,24 +2,9 @@
 <glyph name="Idieresis" format="2">
   <advance width="256"/>
   <unicode hex="00CF"/>
+  <anchor x="0" y="896" name="top"/>
   <outline>
-    <contour>
-      <point x="128" y="0" type="line"/>
-      <point x="0" y="0" type="line"/>
-      <point x="0" y="640" type="line"/>
-      <point x="128" y="640" type="line"/>
-    </contour>
-    <contour>
-      <point x="0" y="896" type="line"/>
-      <point x="0" y="768" type="line"/>
-      <point x="-128" y="768" type="line"/>
-      <point x="-128" y="896" type="line"/>
-    </contour>
-    <contour>
-      <point x="128" y="768" type="line"/>
-      <point x="128" y="896" type="line"/>
-      <point x="256" y="896" type="line"/>
-      <point x="256" y="768" type="line"/>
-    </contour>
+    <component base="dieresis" xOffset="-128" yOffset="256"/>
+    <component base="I"/>
   </outline>
 </glyph>

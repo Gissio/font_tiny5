@@ -2,18 +2,8 @@
 <glyph name="dieresis" format="2">
   <advance width="512"/>
   <unicode hex="00A8"/>
+  <anchor x="128" y="384" name="_top"/>
   <outline>
-    <contour>
-      <point x="0" y="512" type="line"/>
-      <point x="0" y="640" type="line"/>
-      <point x="128" y="640" type="line"/>
-      <point x="128" y="512" type="line"/>
-    </contour>
-    <contour>
-      <point x="256" y="512" type="line"/>
-      <point x="256" y="640" type="line"/>
-      <point x="384" y="640" type="line"/>
-      <point x="384" y="512" type="line"/>
-    </contour>
+    <component base="uni0308"/>
   </outline>
 </glyph>

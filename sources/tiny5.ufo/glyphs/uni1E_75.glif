@@ -3,25 +3,7 @@
   <advance width="512"/>
   <unicode hex="1E75"/>
   <outline>
-    <contour>
-      <point x="128" y="0" type="line"/>
-      <point x="128" y="128" type="line"/>
-      <point x="256" y="128" type="line"/>
-      <point x="256" y="512" type="line"/>
-      <point x="384" y="512" type="line"/>
-      <point x="384" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="128" y="128" type="line"/>
-      <point x="0" y="128" type="line"/>
-      <point x="0" y="512" type="line"/>
-      <point x="128" y="512" type="line"/>
-    </contour>
-    <contour>
-      <point x="384" y="-256" type="line"/>
-      <point x="128" y="-256" type="line"/>
-      <point x="128" y="-128" type="line"/>
-      <point x="384" y="-128" type="line"/>
-    </contour>
+    <component base="uni0330" xOffset="128" yOffset="-256"/>
+    <component base="u"/>
   </outline>
 </glyph>

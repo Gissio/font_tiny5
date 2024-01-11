@@ -3,17 +3,7 @@
   <advance width="256"/>
   <unicode hex="012B"/>
   <outline>
-    <contour>
-      <point x="128" y="0" type="line"/>
-      <point x="0" y="0" type="line"/>
-      <point x="0" y="512" type="line"/>
-      <point x="128" y="512" type="line"/>
-    </contour>
-    <contour>
-      <point x="256" y="640" type="line"/>
-      <point x="-128" y="640" type="line"/>
-      <point x="-128" y="768" type="line"/>
-      <point x="256" y="768" type="line"/>
-    </contour>
+    <component base="macron" xOffset="-128" yOffset="128"/>
+    <component base="dotlessi"/>
   </outline>
 </glyph>

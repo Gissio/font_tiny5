@@ -226,8 +226,6 @@
     <string>logicalnot.glif</string>
     <key>registered</key>
     <string>registered.glif</string>
-    <key>macron</key>
-    <string>macron.glif</string>
     <key>degree</key>
     <string>degree.glif</string>
     <key>plusminus</key>
@@ -1037,7 +1035,7 @@
     <key>caron</key>
     <string>caron.glif</string>
     <key>macron</key>
-    <string>macron000000000000001.glif</string>
+    <string>macron.glif</string>
     <key>uni02CA</key>
     <string>uni02C_A_.glif</string>
     <key>uni02CB</key>
@@ -1108,8 +1106,6 @@
     <string>uni0330.glif</string>
     <key>uni0331</key>
     <string>uni0331.glif</string>
-    <key>uni0332</key>
-    <string>uni0332.glif</string>
     <key>uni0334</key>
     <string>uni0334.glif</string>
     <key>uni0358</key>
@@ -1802,5 +1798,15 @@
     <string>uniA_7B_9.glif</string>
     <key>uniAB53</key>
     <string>uniA_B_53.glif</string>
+    <key>Uhorn</key>
+    <string>U_horn.glif</string>
+    <key>dotbelowcomb</key>
+    <string>dotbelowcomb.glif</string>
+    <key>uni0324</key>
+    <string>uni0324.glif</string>
+    <key>uni032E</key>
+    <string>uni032E_.glif</string>
+    <key>uni2249</key>
+    <string>uni2249.glif</string>
   </dict>
 </plist>

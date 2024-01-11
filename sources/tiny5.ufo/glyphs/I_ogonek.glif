@@ -3,17 +3,7 @@
   <advance width="256"/>
   <unicode hex="012E"/>
   <outline>
-    <contour>
-      <point x="0" y="0" type="line"/>
-      <point x="0" y="-128" type="line"/>
-      <point x="-128" y="-128" type="line"/>
-      <point x="-128" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="128" y="0" type="line"/>
-      <point x="0" y="0" type="line"/>
-      <point x="0" y="640" type="line"/>
-      <point x="128" y="640" type="line"/>
-    </contour>
+    <component base="ogonek" xOffset="-128"/>
+    <component base="I"/>
   </outline>
 </glyph>
