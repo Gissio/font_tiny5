@@ -2,7 +2,7 @@
 
 tiny5 is a variable-width, 5-pixel font playing with the concept of least amount of information that produces both legible and aesthetically pleasing text.
 
-It is inspired by the calculators and digital gadgets of the 1980s-90s, where the constraints of limited pixel space demanded efficient and minimalist design. It can be used for invoking a retro or nostalgic feel, for conveying the idea of minimalism, or for efficiently presenting information on small displays.
+It is inspired by the graphing calculators and digital gadgets of the 1980s-90s, where the constraints of limited pixel space demanded efficient and minimalist design. It can be used for invoking a retro or nostalgic feel, for conveying the idea of minimalism, or for efficiently presenting information on small displays.
 
 tiny5 supports the Google Fonts Latin Kernel, Latin Core, Latin Plus and Latin African character set.
 
