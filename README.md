@@ -37,7 +37,7 @@ With Python 3.10 or newer, install the `requirements.txt` and run this command:
 
 tiny5 was designed by Stefan Schmidt using [Bits'N'Picas](https://github.com/kreativekorp/bitsnpicas) and [FontForge](https://fontforge.org/).
 
-More about Stefan Schmidt on https://www.stefanschmidtart.com
+More about Stefan Schmidt on http://www.stefanschmidtart.com
 
 ## License
 
