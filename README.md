@@ -2,9 +2,9 @@
 
 tiny5 is a variable-width, 5-pixel font playing with the concept of least amount of information that produces both legible and aesthetically pleasing text.
 
-It is aimed at digital media such as websites, mobile apps and, especially, monochrome LCD displays.
+It is inspired by the calculators and digital gadgets of the 1980s, where the constraints of limited pixel space demanded efficient and minimalist design. It can be used for invoking a retro or nostalgic feel, for conveying the idea of minimalism, and for efficiently presenting information on small displays.
 
-Each of tiny5's glyphs was carefully crafted to be visually appealing and easy to read. tiny5 fully supports the Google Fonts Latin Plus and Latin African character set as well as Unicode blocks 0 to 2.
+tiny5 supports the Google Fonts Latin Kernel, Latin Core, Latin Plus and Latin African character set.
 
 The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format) format for easy integration with the [mcu-renderer](https://github.com/Gissio/mcu-renderer), [u8g2](https://github.com/olikraus/u8g2) and [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) libraries.
 
@@ -37,7 +37,7 @@ With Python 3.10 or newer, install the `requirements.txt` and run this command:
 
 tiny5 was designed by Stefan Schmidt using [Bits'N'Picas](https://github.com/kreativekorp/bitsnpicas) and [FontForge](https://fontforge.org/).
 
-More information about Stefan Schmidt at https://www.stefanschmidtart.com
+More about Stefan Schmidt on https://www.stefanschmidtart.com
 
 ## License
 

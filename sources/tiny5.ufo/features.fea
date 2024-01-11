@@ -11,10 +11,6 @@ lookup markPosicionamientodemarcabsqueda0 {
   markClass [\cedilla ] <anchor 128 128> @foot;
   markClass [\ogonek ] <anchor 128 0> @foot;
   markClass [\uni1DCA ] <anchor 0 128> @foot;
-  markClass [\l ] <anchor 128 384> @rightmiddle;
-  markClass [\periodcentered ] <anchor -128 384> @rightmiddle;
-  markClass [\comma ] <anchor 0 128> @righttop;
-  markClass [\uni02BB \uni02BC \uni02BD \uni02BE \uni02BF \uni0358 ] <anchor -128 640> @righttop;
   markClass [\uni02B0 ] <anchor 128 512> @bottom;
   markClass [\uni02B7 ] <anchor 256 512> @bottom;
   markClass [\uni02BB \uni02BC \uni02BD \uni02BE \uni02BF ] <anchor 0 768> @bottom;
@@ -28,7 +24,7 @@ lookup markPosicionamientodemarcabsqueda0 {
   markClass [\uni02CA \acutecomb \uni030D \uni0313 ] <anchor 0 256> @top;
   markClass [\dotaccent \tilde \tildecomb \uni0307 ] <anchor 0 384> @top;
   markClass [\uni1DC5 \uni1DC7 ] <anchor 256 384> @top;
-  pos base [\A \C \S \U ] <anchor 384 0> mark @foot
+  pos base [\A \C \O \S \U ] <anchor 384 0> mark @foot
 	<anchor 256 640> mark @top
 	<anchor 256 0> mark @bottom;
   pos base [\B \F \G \K \M \N \P \Q \R \W ] <anchor 256 0> mark @bottom
@@ -36,43 +32,29 @@ lookup markPosicionamientodemarcabsqueda0 {
   pos base [\D \E \H ] <anchor 256 0> mark @foot
 	<anchor 256 0> mark @bottom
 	<anchor 256 640> mark @top;
-  pos base [\I ] <anchor 0 0> mark @foot
+  pos base [\I \l ] <anchor 0 0> mark @foot
 	<anchor 0 640> mark @top
 	<anchor 0 0> mark @bottom;
   pos base [\J \V \X \Y \Z \b \k ] <anchor 128 640> mark @top
 	<anchor 128 0> mark @bottom;
   pos base [\L ] <anchor 0 0> mark @foot
-	<anchor 128 384> mark @rightmiddle
-	<anchor 128 640> mark @righttop
 	<anchor 128 640> mark @top
 	<anchor 128 0> mark @bottom;
-  pos base [\O ] <anchor 384 0> mark @foot
-	<anchor 512 640> mark @righttop
-	<anchor 256 640> mark @top
-	<anchor 256 0> mark @bottom;
   pos base [\T ] <anchor 128 0> mark @foot
 	<anchor 128 640> mark @top
 	<anchor 128 0> mark @bottom;
   pos base [\a \c \e \s \u ] <anchor 256 0> mark @foot
 	<anchor 128 0> mark @bottom
 	<anchor 128 512> mark @top;
-  pos base [\d ] <anchor 256 0> mark @foot
-	<anchor 384 640> mark @righttop
+  pos base [\d \h ] <anchor 256 0> mark @foot
 	<anchor 128 640> mark @top
 	<anchor 128 0> mark @bottom;
   pos base [\f ] <anchor 128 640> mark @top
 	<anchor 0 0> mark @bottom;
   pos base [\g \p \q \y ] <anchor 128 512> mark @top
 	<anchor 128 -128> mark @bottom;
-  pos base [\h ] <anchor 256 0> mark @foot
-	<anchor 128 640> mark @top
-	<anchor 128 0> mark @bottom;
   pos base [\i \dotlessi ] <anchor 0 0> mark @foot
 	<anchor 0 512> mark @top
-	<anchor 0 0> mark @bottom;
-  pos base [\l ] <anchor 0 0> mark @foot
-	<anchor 128 640> mark @righttop
-	<anchor 0 640> mark @top
 	<anchor 0 0> mark @bottom;
   pos base [\m \w ] <anchor 256 0> mark @bottom
 	<anchor 256 512> mark @top;
@@ -119,7 +101,7 @@ feature mark {
 } mark;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\Uhorn \uni2249 ];
+@GDEF_Simple = [\uni2249 ];
 @GDEF_Mark = [\dotbelowcomb \uni0324 \uni032E ];
 
 table GDEF {
