@@ -10,7 +10,7 @@ COPYRIGHT "Copyright 2024 The tiny5 Project Authors (https://github.com/Gissio/f
 FOUNDRY "Made with Bits'n'Picas by Kreative Software"
 FONT_ASCENT 7
 FONT_DESCENT 2
-POINT_SIZE 8
+POINT_SIZE 9
 X_HEIGHT 4
 CAP_HEIGHT 5
 ENDPROPERTIES
@@ -1423,8 +1423,9 @@ STARTCHAR U+00B5
 ENCODING 181
 SWIDTH 333 0
 DWIDTH 4 0
-BBX 3 4 0 -1
+BBX 3 5 0 -1
 BITMAP
+A0
 A0
 A0
 E0
