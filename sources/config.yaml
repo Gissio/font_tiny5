@@ -8,6 +8,9 @@ recipe:
   - source: tiny5-Medium.ufo
   - operation: buildTTF
     args: --filter '...' --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+  - operation: exec
+    exe: fonttools
+    args: feaLib features.fea $in -o $out -t GSUB
   - operation: autohint
   - operation: fix
     args: --include-source-fixes --rename-family "Tiny5"
