@@ -2,5 +2,14 @@ languagesystem DFLT dflt;
 languagesystem latn dflt;
 
 feature ccmp {
-    sub j' acutecomb by uni0237;
+    lookup decomposition {
+        sub iogonek by i ogonek;
+        sub uni1ECB by i dotbelowcomb;
+        sub uni1E2D by i uni0330;
+    } decomposition;
+
+    lookup softdot {
+        sub j' [acutecomb gravecomb tildecomb uni0308 uni0304 uni0311] by uni0237;
+        sub i' [uni030A uni030B uni030D uni0310 uni0313 uni1DC6 uni1DC7] by dotlessi;
+    } softdot;
 } ccmp;
