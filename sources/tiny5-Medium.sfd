@@ -7657,6 +7657,9 @@ GlifName: uni018E_
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "foot" 256 0 basechar 0
+AnchorPoint: "bottom" 256 0 basechar 0
+AnchorPoint: "top" 256 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7903,6 +7906,7 @@ GlifName: uni0196
 Width: 256
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 0 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7920,6 +7924,8 @@ GlifName: uni0197
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "bottom" 128 0 basechar 0
+AnchorPoint: "top" 128 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8429,6 +8435,7 @@ GlifName: uni01B_2
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9066,6 +9073,7 @@ GlifName: uni01D_D_
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10561,6 +10569,9 @@ GlifName: uni0244
 Width: 896
 GlyphClass: 1
 Flags: W
+AnchorPoint: "foot" 384 0 basechar 0
+AnchorPoint: "bottom" 256 0 basechar 0
+AnchorPoint: "top" 256 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10963,6 +10974,9 @@ GlifName: uni0251
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "foot" 256 0 basechar 0
+AnchorPoint: "bottom" 128 0 basechar 0
+AnchorPoint: "top" 128 512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11253,6 +11267,7 @@ GlifName: uni0265
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11340,6 +11355,7 @@ GlifName: uni0269
 Width: 256
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 0 512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11606,6 +11622,9 @@ GlifName: uni0289
 Width: 768
 GlyphClass: 1
 Flags: W
+AnchorPoint: "foot" 384 0 basechar 0
+AnchorPoint: "bottom" 256 0 basechar 0
+AnchorPoint: "top" 256 512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11679,6 +11698,8 @@ GlifName: uni028B_
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 512 basechar 0
+AnchorPoint: "bottom" 128 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15475,6 +15496,7 @@ GlifName: uni1E_B_C_
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 896 basechar 0
 LayerCount: 2
 Fore
 Refer: 524 732 N 1 0 0 1 128 256 2
@@ -15487,6 +15509,7 @@ GlifName: uni1E_B_D_
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 768 basechar 0
 LayerCount: 2
 Fore
 Refer: 524 732 N 1 0 0 1 128 128 2
@@ -15539,6 +15562,7 @@ GlifName: uni1E_C_A_
 Width: 256
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 0 640 basechar 0
 LayerCount: 2
 Fore
 Refer: 898 803 N 1 0 0 1 0 -256 2
@@ -15629,6 +15653,7 @@ GlifName: uni1E_E_4
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 256 640 basechar 0
 LayerCount: 2
 Fore
 Refer: 898 803 N 1 0 0 1 256 -256 2
@@ -15641,6 +15666,7 @@ GlifName: uni1E_E_5
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 512 basechar 0
 LayerCount: 2
 Fore
 Refer: 898 803 N 1 0 0 1 128 -256 2
