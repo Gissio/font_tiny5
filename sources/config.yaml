@@ -1,4 +1,6 @@
 familyName: tiny5
+sources:
+  - tiny5-Medium.sfd
 recipe:
   ../fonts/ttf/Tiny5-Medium.ttf:
   - source: tiny5-Medium.sfd
