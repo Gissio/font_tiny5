@@ -1,5 +1,19 @@
-sources:
-  - tiny5.ufo
-axisOrder:
-  - wght
 familyName: tiny5
+sources:
+  - tiny5-Medium.sfd
+recipe:
+  ../fonts/ttf/Tiny5-Medium.ttf:
+  - source: tiny5-Medium.sfd
+  - operation: exec
+    exe: babelfont
+    args: $in tiny5-Medium.ufo
+  - source: tiny5-Medium.ufo
+  - operation: buildTTF
+    args: --filter '...' --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+  - operation: exec
+    exe: fonttools
+    args: feaLib features.fea $in -o $out -t GSUB
+  - operation: autohint
+  - operation: fix
+    args: --include-source-fixes --rename-family "Tiny5"
+
