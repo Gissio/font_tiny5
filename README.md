@@ -4,7 +4,7 @@ tiny5 is a variable-width, 5-pixel font playing with the concept of least amount
 
 It is inspired by the graphing calculators and digital gadgets of the 1980s-90s, where the constraints of limited pixel space demanded efficient and minimalist design. It can be used for invoking a retro or nostalgic feel, for conveying the idea of minimalism, or for efficiently presenting information on small displays.
 
-tiny5 supports the Google Fonts Latin Kernel, Latin Core, Latin Plus and Latin African character set.
+tiny5 supports the Google Fonts Latin Kernel, Latin Core, Latin Plus, Latin African, Greek Core, Cyrillic Core and Cyrillic Plus character set.
 
 The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format) format for easy integration with the [mcu-renderer](https://github.com/Gissio/mcu-renderer), [u8g2](https://github.com/olikraus/u8g2) and [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) libraries.
 
@@ -17,6 +17,10 @@ The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_D
 ![tiny5 sample](documentation/sample.png)
 
 ## Changelog
+
+### 1.002
+
+* Added Google Fonts Greek Core, Cyrillic Core and Cyrillic Plus character sets.
 
 ### 1.001
 
