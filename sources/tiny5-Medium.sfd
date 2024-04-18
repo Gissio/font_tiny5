@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1704872993
-ModificationTime: 1713464573
+ModificationTime: 1713465475
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -85,7 +85,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 16 9
+WinInfo: 1024 16 9
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "foot" "'mark' Posicionamiento de marca b+APoA-squeda 0-1" "bottom" "'mark' Posicionamiento de marca b+APoA-squeda 0-1" "top" "'mark' Posicionamiento de marca b+APoA-squeda 0-1"
@@ -23665,11 +23665,9 @@ SplineSet
  384 128 l 1,19,-1
  640 128 l 1,16,-1
 384 512 m 1,20,-1
- 384 613.043609619 l 0,21,22
- 384 613.043609619 384 613.043609619 384 622.043609619 c 0,23,24
- 384 622.043609619 384 622.043609619 384 640 c 1,25,-1
- 640 640 l 1,26,-1
- 640 512 l 1,27,-1
+ 384 640 l 1,21,-1
+ 640 640 l 1,22,-1
+ 640 512 l 1,23,-1
  384 512 l 1,20,-1
 EndSplineSet
 EndChar
