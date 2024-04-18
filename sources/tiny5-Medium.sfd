@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1704872993
-ModificationTime: 1713465707
+ModificationTime: 1713468346
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -85,7 +85,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1024 16 9
+WinInfo: 1008 16 9
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "foot" "'mark' Posicionamiento de marca b+APoA-squeda 0-1" "bottom" "'mark' Posicionamiento de marca b+APoA-squeda 0-1" "top" "'mark' Posicionamiento de marca b+APoA-squeda 0-1"
@@ -20936,7 +20936,7 @@ EndChar
 
 StartChar: Alphatonos
 Encoding: 902 902 908
-Width: 640
+Width: 896
 VWidth: 1152
 Flags: W
 LayerCount: 2
