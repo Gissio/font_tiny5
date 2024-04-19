@@ -1,15 +1,25 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
+@all_marks = [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030F uni0310 uni0311 uni0313 uni0325 uni0326 uni0327 uni0328 uni0329 uni032D uni032F uni0330 uni0331 uni0334 uni0358 uni1DC4 uni1DC5 uni1DC6 uni1DC7 uni1DCA dotbelowcomb uni0324 uni032E ];
+@topaccents = [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030F uni0310 uni0311 uni0313 uni1DC4 uni1DC5 uni1DC6 uni1DC7];
+
+table GDEF {
+    GlyphClassDef [], [], @all_marks, [];
+} GDEF;
+
 feature ccmp {
     lookup decomposition {
         sub iogonek by i ogonek;
         sub uni1ECB by i dotbelowcomb;
         sub uni1E2D by i uni0330;
+        sub afii10103 by i;
     } decomposition;
 
     lookup softdot {
-        sub j' [acutecomb gravecomb tildecomb uni0308 uni0304 uni0311] by uni0237;
-        sub i' [uni030A uni030B uni030D uni0310 uni0313 uni1DC6 uni1DC7] by dotlessi;
+        lookupflag UseMarkFilteringSet @topaccents;
+        sub j' @topaccents by uni0237;
+        sub i' @topaccents by dotlessi;
+        sub uni0268' @topaccents by uni1D7B;
     } softdot;
 } ccmp;

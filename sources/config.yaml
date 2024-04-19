@@ -12,7 +12,7 @@ recipe:
     args: --filter '...' --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
   - operation: exec
     exe: fonttools
-    args: feaLib features.fea $in -o $out -t GSUB
+    args: feaLib features.fea $in -o $out -t GSUB GDEF
   - operation: autohint
   - operation: fix
     args: --include-source-fixes --rename-family "Tiny5"
