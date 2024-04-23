@@ -1,10 +1,10 @@
 STARTFONT 2.1
-FONT -tiny5-Medium-R-Medium--9-9-75-75-c-80-iso10646-1
+FONT -tiny5-Regular-R-Regular--9-9-75-75-c-80-iso10646-1
 SIZE 9 75 75
 FONTBOUNDINGBOX 12 14 -2 -3
 STARTPROPERTIES 10
 FAMILY_NAME "tiny5"
-WEIGHT_NAME "Medium"
+WEIGHT_NAME "Regular"
 FONT_VERSION "1.002"
 COPYRIGHT "Copyright 2024 The tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
 FOUNDRY "Made with Bits'n'Picas by Kreative Software"
