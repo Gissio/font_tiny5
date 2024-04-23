@@ -2,7 +2,7 @@ SplineFontDB: 3.2
 FontName: tiny5
 FullName: tiny5
 FamilyName: tiny5
-Weight: Medium
+Weight: Regular
 Copyright: Copyright 2024 The tiny5 Project Authors (https://github.com/Gissio/font_tiny5)
 Version: 1.002
 ItalicAngle: 0
@@ -24,7 +24,7 @@ OS2_UseTypoMetrics: 1
 CreationTime: 1704872993
 ModificationTime: 1713468346
 PfmFamily: 17
-TTFWeight: 500
+TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
@@ -78,7 +78,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "BitsNPicas: tiny5: 2024" "" "Version 1.002" "" "" "Made with Bits'n'Picas by Kreative Software" "Stefan Schmidt" "" "http://www.kreativekorp.com/software/bitsnpicas/" "https://github.com/Gissio/font_tiny5" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "tiny5" "Medium" "tiny5 Medium" "" "" "tiny5" "Medium"
+LangName: 1033 "" "" "" "BitsNPicas: tiny5: 2024" "" "Version 1.002" "" "" "Made with Bits'n'Picas by Kreative Software" "Stefan Schmidt" "" "http://www.kreativekorp.com/software/bitsnpicas/" "https://github.com/Gissio/font_tiny5" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "tiny5" "Regular" "tiny5 Regular" "" "" "tiny5" "Regular"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
