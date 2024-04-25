@@ -2,7 +2,7 @@ SplineFontDB: 3.2
 FontName: tiny5
 FullName: tiny5
 FamilyName: tiny5
-Weight: Medium
+Weight: Regular
 Copyright: Copyright 2024 The tiny5 Project Authors (https://github.com/Gissio/font_tiny5)
 Version: 1.002
 ItalicAngle: 0
@@ -24,7 +24,7 @@ OS2_UseTypoMetrics: 1
 CreationTime: 1704872993
 ModificationTime: 1713468346
 PfmFamily: 17
-TTFWeight: 500
+TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
@@ -78,7 +78,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "BitsNPicas: tiny5: 2024" "" "Version 1.002" "" "" "Made with Bits'n'Picas by Kreative Software" "Stefan Schmidt" "" "http://www.kreativekorp.com/software/bitsnpicas/" "https://github.com/Gissio/font_tiny5" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "tiny5" "Medium" "tiny5 Medium" "" "" "tiny5" "Medium"
+LangName: 1033 "" "" "" "BitsNPicas: tiny5: 2024" "" "Version 1.002" "" "" "Made with Bits'n'Picas by Kreative Software" "Stefan Schmidt" "" "http://www.kreativekorp.com/software/bitsnpicas/" "https://github.com/Gissio/font_tiny5" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "tiny5" "Regular" "tiny5 Regular" "" "" "tiny5" "Regular"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -2340,8 +2340,8 @@ GlifName: i
 Width: 256
 GlyphClass: 1
 Flags: W
-AnchorPoint: "foot" 0 0 basechar 0
 AnchorPoint: "top" 0 512 basechar 0
+AnchorPoint: "foot" 0 0 basechar 0
 AnchorPoint: "bottom" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8092,6 +8092,7 @@ GlifName: uni019C_
 Width: 768
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 256 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8179,6 +8180,8 @@ GlifName: uni019F_
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "bottom" 256 0 basechar 0
+AnchorPoint: "top" 256 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8395,6 +8398,7 @@ GlifName: uni01B_1
 Width: 768
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 256 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8812,6 +8816,7 @@ GlifName: uni01C_D_
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "bottom" 256 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8840,6 +8845,7 @@ GlifName: uni01C_E_
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "bottom" 128 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 515 711 N 1 0 0 1 0 256 2
@@ -8876,6 +8882,7 @@ GlifName: uni01D_1
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "bottom" 256 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8904,6 +8911,7 @@ GlifName: uni01D_2
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "bottom" 128 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 515 711 N 1 0 0 1 0 256 2
@@ -8916,6 +8924,7 @@ GlifName: uni01D_3
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "bottom" 256 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8944,6 +8953,7 @@ GlifName: uni01D_4
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "bottom" 128 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 515 711 N 1 0 0 1 0 256 2
@@ -9075,6 +9085,8 @@ Width: 512
 GlyphClass: 1
 Flags: W
 AnchorPoint: "top" 128 512 basechar 0
+AnchorPoint: "foot" 256 0 basechar 0
+AnchorPoint: "bottom" 128 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10608,6 +10620,7 @@ GlifName: uni0245
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11326,6 +11339,8 @@ GlifName: uni0268
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "foot" 128 0 basechar 0
+AnchorPoint: "bottom" 128 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11374,6 +11389,7 @@ GlifName: uni026A_
 Width: 256
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 0 512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11437,6 +11453,7 @@ GlifName: uni026F_
 Width: 768
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 256 512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11494,6 +11511,7 @@ GlifName: uni0275
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11658,6 +11676,7 @@ GlifName: uni028A_
 Width: 768
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 256 512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11733,6 +11752,7 @@ GlifName: uni028C_
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13739,6 +13759,7 @@ GlifName: uni1E_1A_
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 256 640 basechar 0
 LayerCount: 2
 Fore
 Refer: 550 816 N 1 0 0 1 128 -256 2
@@ -13751,6 +13772,7 @@ GlifName: uni1E_1B_
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 512 basechar 0
 LayerCount: 2
 Fore
 Refer: 550 816 N 1 0 0 1 128 -256 2
@@ -14005,6 +14027,7 @@ GlifName: uni1E_2C_
 Width: 256
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 0 640 basechar 0
 LayerCount: 2
 Fore
 Refer: 550 816 N 1 0 0 1 0 -256 2
@@ -14937,6 +14960,7 @@ GlifName: uni1E_74
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 256 640 basechar 0
 LayerCount: 2
 Fore
 Refer: 550 816 N 1 0 0 1 128 -256 2
@@ -14949,6 +14973,7 @@ GlifName: uni1E_75
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 512 basechar 0
 LayerCount: 2
 Fore
 Refer: 550 816 N 1 0 0 1 128 -256 2
@@ -15504,6 +15529,8 @@ Width: 640
 GlyphClass: 1
 Flags: W
 AnchorPoint: "top" 128 896 basechar 0
+AnchorPoint: "foot" 256 0 basechar 0
+AnchorPoint: "bottom" 256 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 524 732 N 1 0 0 1 128 256 2
@@ -15517,6 +15544,8 @@ Width: 512
 GlyphClass: 1
 Flags: W
 AnchorPoint: "top" 128 768 basechar 0
+AnchorPoint: "foot" 256 0 basechar 0
+AnchorPoint: "bottom" 128 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 524 732 N 1 0 0 1 128 128 2
@@ -19877,6 +19906,7 @@ GlifName: uni2C_6D_
 Width: 640
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 256 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -20205,6 +20235,7 @@ GlifName: uniA_78D_
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -20354,6 +20385,7 @@ GlifName: uniA_7A_E_
 Width: 512
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 128 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -20528,6 +20560,7 @@ GlifName: uniA_7B_6
 Width: 768
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 256 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -20575,6 +20608,7 @@ GlifName: uniA_7B_7
 Width: 768
 GlyphClass: 1
 Flags: W
+AnchorPoint: "top" 256 512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -20803,6 +20837,9 @@ Encoding: 7547 7547 902
 Width: 512
 VWidth: 1152
 Flags: W
+AnchorPoint: "top" 128 512 basechar 0
+AnchorPoint: "foot" 128 0 basechar 0
+AnchorPoint: "bottom" 128 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet

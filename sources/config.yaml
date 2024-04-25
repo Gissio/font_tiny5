@@ -1,19 +1,31 @@
 familyName: tiny5
 sources:
-  - tiny5-Medium.sfd
+  - tiny5-Regular.sfd
 recipe:
-  ../fonts/ttf/Tiny5-Medium.ttf:
-  - source: tiny5-Medium.sfd
+  ../fonts/ttf/tiny5-Regular.ttf:
+  - source: tiny5-Regular.sfd
   - operation: exec
     exe: babelfont
-    args: $in tiny5-Medium.ufo
-  - source: tiny5-Medium.ufo
+    args: $in tiny5-Regular.ufo
+  - source: tiny5-Regular.ufo
   - operation: buildTTF
     args: --filter '...' --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
   - operation: exec
     exe: fonttools
-    args: feaLib features.fea $in -o $out -t GSUB
+    args: feaLib features.fea $in -o $out -t GSUB GDEF
   - operation: autohint
   - operation: fix
-    args: --include-source-fixes --rename-family "Tiny5"
-
+    args: --include-source-fixes
+  - operation: rename
+    args: --just-family
+    name: Tiny5
+  ../fonts/otf/tiny5-Regular.otf:
+  - source: tiny5-Regular.sfd
+  - operation: exec
+    exe: babelfont
+    args: $in tiny5-Regular.ufo
+  - source: tiny5-Regular.ufo
+  - operation: buildOTF
+  - operation: exec
+    exe: fonttools
+    args: feaLib features.fea $in -o $out -t GSUB GDEF
