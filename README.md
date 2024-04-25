@@ -37,11 +37,11 @@ With Python 3.10 or newer, install the `requirements.txt` and run this command:
 
     gftools builder sources/config.yaml
 
-## Acknowledgements 
+## Designer profile
 
-tiny5 was designed by Stefan Schmidt using [Bits'N'Picas](https://github.com/kreativekorp/bitsnpicas) and [FontForge](https://fontforge.org/).
+Stefan Schmidt is an electrical engineer with graduate studies in signal processing, combined artistic languages and sociology. Fascinated by the interplay between the virtual and the real, his work probes the boundaries between perception and technology.
 
-More about Stefan Schmidt on http://www.stefanschmidtart.com
+Learn more at [http://www.stefanschmidtart.com](http://www.stefanschmidtart.com).
 
 ## License
 
