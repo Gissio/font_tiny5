@@ -16,18 +16,21 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "fonts/ttf/tiny5-Medium.ttf"
+FONT_PATH = "fonts/ttf/tiny5-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = "ABCDEFGHIJKLMNOPQ"
-LINE_TWO = "RSTUVWXYZ123456789"
-LINE_THREE = "abcdefghijklmnopqrstu"
-LINE_FOUR = "vwxyz,.;:!@#$%^&*(){}[]"
-BIG_TEXT_FONT_SIZE = 160
-BIG_TEXT_SIDE_MARGIN = MARGIN * 1
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.45
+BIG_TEXT = "Tiny5"
+BIG_TEXT_FONT_SIZE = 360
+BIG_TEXT_PIXEL_SIZE = BIG_TEXT_FONT_SIZE / 9
+BIG_TEXT_SIDE_MARGIN = 1024 + BIG_TEXT_PIXEL_SIZE / 2
+BIG_TEXT_BOTTOM_MARGIN = 0.5 * HEIGHT - 2.5 * BIG_TEXT_PIXEL_SIZE
+SMALL_TEXT = "a variable-width 5-pixel font"
+SMALL_TEXT_FONT_SIZE = 0.175 * BIG_TEXT_FONT_SIZE
+SMALL_TEXT_PIXEL_SIZE = SMALL_TEXT_FONT_SIZE / 9
+SMALL_TEXT_SIDE_MARGIN = 1024 + SMALL_TEXT_PIXEL_SIZE / 2
+SMALL_TEXT_BOTTOM_MARGIN = BIG_TEXT_BOTTOM_MARGIN - 2 * SMALL_TEXT_FONT_SIZE
 
 GRID_VIEW = False # Toggle this for a grid overlay
 
@@ -93,14 +96,9 @@ def draw_main_text():
     stroke(None)
     font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
-    # Adjust this line to center main text manually.
-    # TODO: This should be done automatically when drawbot-skia
-    # has support for textBox() and FormattedString
-    LEADING = 1.2
-    text(LINE_ONE, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
-    text(LINE_TWO, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * LEADING)))
-    text(LINE_THREE, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 2))))
-    text(LINE_FOUR, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 3))))
+    text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN), align="center")
+    fontSize(SMALL_TEXT_FONT_SIZE)
+    text(SMALL_TEXT, (SMALL_TEXT_SIDE_MARGIN, SMALL_TEXT_BOTTOM_MARGIN), align="center")
 
 
 # Divider lines
@@ -137,8 +135,8 @@ def draw_auxiliary_text():
 if __name__ == "__main__":
     draw_background()
     draw_main_text()
-    draw_divider_lines()
-    draw_auxiliary_text()
+    # draw_divider_lines()
+    # draw_auxiliary_text()
     # Save output, using the "--output" flag location
     saveImage(args.output)
     # Print done in the terminal

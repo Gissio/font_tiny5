@@ -8,9 +8,9 @@
 <prop id="lineGap" value="0"/>
 <prop id="xHeight" value="4"/>
 <prop id="capHeight" value="5"/>
-<name id="0" value="Copyright 2024 The tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"/>
-<name id="1" value="tiny5"/>
-<name id="2" value="Medium"/>
+<name id="0" value="Copyright 2024 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"/>
+<name id="1" value="Tiny5"/>
+<name id="2" value="Regular"/>
 <name id="5" value="1.002"/>
 <name id="8" value="Made with Bits&#39;n&#39;Picas by Kreative Software"/>
 <g u="0" x="0" y="0" w="0" d="AAA"/>
