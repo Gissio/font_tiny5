@@ -1,7 +1,5 @@
-fontmake>=2.4
-gftools[qa]>=0.9.23
-drawbot-skia>=0.4.8
-sh>=1.14.2
-bumpfontversion>=0.2.0
-diffenator2>=0.2.5
-babelfont @ git+https://github.com/simoncozens/babelfont@1cb50ea
+bdflib
+gftools
+numpy
+ufoLib2
+unicodedata2
