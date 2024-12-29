@@ -22,7 +22,7 @@ The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_D
 
 # Releases
 
-## 2.0.0
+## 2.000
 
 * Added variable font support for control of pixel volume, roundness and bleed.
 * Added Tiny5 Bold weight.
