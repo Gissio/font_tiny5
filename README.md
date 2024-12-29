@@ -25,8 +25,8 @@ The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_D
 ## 2.0.0
 
 * Added variable font support for control of pixel volume, roundness and bleed.
+* Added Tiny5 Bold weight.
 * Added Google Fonts Latin Beyond, Latin PriAfrican, Latin Vietnamese, Greek Plus and Greek Pro character sets.
-* Added Tiny5 Bold variant.
 * Major corrections to the greek and cyrillic character sets.
 
 ## 1.002
