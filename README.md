@@ -18,7 +18,7 @@ The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_D
 
 ![CRT Sample](documentation/Tiny5-CRT-Sample.png)
 
-![DotMatrix Sample](documentation/Tiny5-DotMatrix-Sample.png)
+![DotMatrix Sample](documentation/Tiny5-Matrix-Sample.png)
 
 # Releases
 
