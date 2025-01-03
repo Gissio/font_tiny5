@@ -22,6 +22,10 @@ The font is also available in [BDF](https://en.wikipedia.org/wiki/Glyph_Bitmap_D
 
 # Releases
 
+## 2.001
+
+* Minor fixes.
+
 ## 2.000
 
 * Added variable font support with axes for: pixel volume, roundness and bleed.
